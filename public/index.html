@@ -4,11 +4,299 @@
  <meta charset="UTF-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Document</title>
+ <link rel="shortcut icon" href="./assets/images/fav-icon.png" type="image/fav-icon">
+ <title>My Portfolio Website</title>
 </head>
 <body>
+  <div id="container">
+  <!--- Navigation bar -->
+  <nav class="navbar navbar-expand-lg p-0 fixed-top">
   <div class="container">
-    <div>Bangladesh</div>
+  <a class="navbar-brand" href="#"><img src="./assets/images/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="fa fa-bars"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto m-0">
+      <li class="nav-item active py-4 px-3" data-sectionname ="home">
+        <a class="nav-link" href="#home" >Home</a>
+      </li>
+      <li class="nav-item py-4 px-3" data-sectionname ="about">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item py-4 px-3" data-sectionname ="portfolio">
+        <a class="nav-link" href="#portfolio" >Portfolio</a>
+      </li>
+      <li class="nav-item py-4 px-3" data-sectionname ="review">
+        <a class="nav-link" href="#review">Reviews</a>
+      </li>
+      <li class="nav-item py-4 px-3" data-sectionname ="contact">
+        <a class="nav-link" href="#contact">Contact Me</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+  <!---End Navigation bar -->
+
+  <!-- Top Section-->
+  <section class="shadow-lg hero" id="home">
+  <div class="container">
+    <div class="row justify-content-center">
+       <div class="col-md-6 col-sm-6 col-lg-6">
+        <div class="top-image" data-aos="fade-up-right">
+          <img class="image-rounded-lg w-100 shadow-lg"  src="./assets/images/profile.jpg" alt="">
+          </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="hero-content pt-5 mt-auto" data-aos="fade-up-left">
+              <h1>Programmer-Rezwan</h1>
+              <h3 class="mt-4 my-3">My Mission</h3>
+              <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur et dolorum suscipit illum, laborum voluptates eos? Omnis hic voluptates ipsum, saepe officiis voluptatem quisquam sapiente dolorem eos nesciunt aliquid explicabo.</p>
+              <a href="#" class="mb-3 btn btn-success" >Download CV<i class="ml-1 fa fa-download"></i></a>
+            </div>
+            <div class="social-link-container my-4">
+              <ul class="d-flex nav">
+                <li class="social-link py-3 px-4 mr-2 rounded-lg shadow-lg"><a href="" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li class="social-link py-3 px-4 mr-2 rounded-lg shadow-lg"><a href="" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li class="social-link py-3 px-4 mr-2 rounded-lg shadow-lg"><a href="" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+<!-- End Top Section-->
+
+<!-- About Section-->
+<section class="primary-bg about shadow-lg" id="about">
+   <div class="container py-5">
+     <div class="text-center">
+       <h2 class="section-title mt-5 mb-4">About</h2>
+       <div class="row justfy-content-end">
+        <div class="col-md-6 col-sm-6 col-lg-6" data-aos="fade-up-left">
+            <h3 class="my-3">Who am I?</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis mollitia repellat qui illum officia optio harum reiciendis placeat dolorem praesentium itaque ipsam, perspiciatis perferendis, quibusdam veritatis! Necessitatibus corporis nam dignissimos!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis mollitia repellat qui illum officia optio harum reiciendis placeat dolorem praesentium itaque ipsam, perspiciatis perferendis, quibusdam veritatis! Necessitatibus corporis nam dignissimos!</p>
+            <h3 class="my-3">My Skill</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae amet aperiam non iure voluptates quaerat ipsa atque molestiae magni dolor esse reiciendis, saepe corporis ea vel molestias distinctio similique accusantium.</p>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae amet aperiam non iure voluptates quaerat ipsa atque molestiae magni dolor esse reiciendis, saepe corporis ea vel molestias distinctio similique accusantium.</p>
+          </div>
+        <div class="col-md-6 col-sm-6 col-lg-6" data-aos="fade-up-right">
+        <img class="w-100 shadow-lg image-rounded-lg" src="./assets/images/profile.jpg" alt="">
+        </div>
+      </div>
+     </div>
+   </div>
+</section>
+<!--End About Section -->
+
+<!-- Portfolio Section -->
+<section class="portfolio shadow-lg" id="portfolio">
+  <div class="container py-5">
+    <h2 class="my-5 section-title text-center">Portfolio</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-5 col-sm-5 col-lg-5 col-lg-5 mb-4" data-aos="zoom-in-up">
+          <article class="shadow-lg">
+            <img src="./assets/images/portfolio/1.jpg" alt="">
+            <div class="primary-bg">
+              <h3 class="pt-2 article-title text-center text-light">Portfolio Item</h3>
+              <p class="p-2 text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt tempore illum alias quas sed.</p>
+              <div class="social-link-container pb-3">
+                <ul class="d-flex nav row justify-content-center">
+                  <li class="social-link py-3 px-4 mx-4 bg-light rounded-lg shadow-lg"><a href="" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                  <li class="social-link py-3 px-4 mr-4 bg-light rounded-lg shadow-lg"><a href="" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                  <li class="social-link py-3 px-4 mr-4 bg-light rounded-lg shadow-lg"><a href="" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-5 col-sm-5 col-lg-5 col-lg-5 mb-4" data-aos="zoom-in-up">
+          <article class=" shadow-lg">
+            <img src="./assets/images/portfolio/2.jpg" alt="">
+            <div class="primary-bg">
+              <h3 class="pt-2 article-title text-center text-light">Portfolio Item</h3>
+              <p class="p-2 text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt tempore illum alias quas sed.</p>
+              <div class="social-link-container pb-3">
+                <ul class="d-flex nav row justify-content-center">
+                  <li class="social-link py-3 px-4 mx-4 bg-light rounded-lg shadow-lg"><a href="" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                  <li class="social-link py-3 px-4 mr-4 bg-light rounded-lg shadow-lg"><a href="" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                  <li class="social-link py-3 px-4 mr-4 bg-light rounded-lg shadow-lg"><a href="" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-5 col-sm-5 col-lg-5 col-lg-5 mb-4" data-aos="zoom-in-up">
+          <article class=" shadow-lg">
+            <img src="./assets/images/portfolio/3.jpg" alt="">
+            <div class="primary-bg">
+              <h3 class="pt-2 article-title text-center text-light">Portfolio Item</h3>
+              <p class="p-2 text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt tempore illum alias quas sed.</p>
+              <div class="social-link-container pb-3">
+                <ul class="d-flex nav row justify-content-center">
+                  <li class="social-link py-3 px-4 mx-4 bg-light rounded-lg shadow-lg"><a href="" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                  <li class="social-link py-3 px-4 mr-4 bg-light rounded-lg shadow-lg"><a href="" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                  <li class="social-link py-3 px-4 mr-4 bg-light rounded-lg shadow-lg"><a href="" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-5 col-sm-5 col-lg-5 mb-4" data-aos="zoom-in-up">
+          <article class=" shadow-lg">
+            <img src="./assets/images/portfolio/4.jpg" alt="">
+            <div class="primary-bg">
+              <h3 class="pt-2 article-title text-center text-light">Portfolio Item</h3>
+              <p class="p-2 text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt tempore illum alias quas sed.</p>
+              <div class="social-link-container pb-3">
+                <ul class="d-flex nav row justify-content-center">
+                  <li class="social-link py-3 px-4 mx-4 bg-light rounded-lg shadow-lg"><a href="" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                  <li class="social-link py-3 px-4 mr-4 bg-light rounded-lg shadow-lg"><a href="" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                  <li class="social-link py-3 px-4 mr-4 bg-light rounded-lg shadow-lg"><a href="" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+    </div>
+  </div>
+</section>
+<!--End Portfolio Section -->
+
+<!-- Client Review -->
+<section class="primary-bg shadow-lg" id="review">
+  <div class="container py-5">
+    <h2 class="section-title text-center">Clients-Reviews</h2>
+    <div class="row my-5">
+      <div class="col-md-4 col-sm-4 col-lg-4 text-right" data-aos="fade-up-right">
+        <img src="./assets/images/clients/1.jpg" class="rounded-circle img-fluid w-7 shadow-lg" alt="">
+      </div>
+      <div class="col-md-8 col-sm-8 col-lg-8 text-left" data-aos="fade-up-left">
+        <h4 class="py-2 text-bold">Eva Doe</h4>
+        <p class="font-italic text-white">
+           <i class="fa fa-quote-left mx-1 fa-1x text-white"></i>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos quae veritatis autem provident, tenetur distinctio quibusdam fugit! Amet consequuntur aspernatur fugiat ipsam, assumenda iste tempore fugit beatae. Saepe, inventore quos! 
+          <i class="fa fa-quote-right mx-1 fa-1x text-white"></i>
+          </p>
+          <p class="text-sm font-italic date"> 3 March, 
+            2021</p>
+      </div>
+    </div>
+    <div class="row my-5">
+          <div class="col-md-8 col-sm-8 col-lg-8 text-right" data-aos="fade-up-right">
+              <h4 class="py-2 text-bold">Ava Doe</h4>
+               <p class="font-italic text-white">
+                <i class="fa fa-quote-left mx-1 fa-1x text-white"></i>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos quae veritatis autem provident, tenetur distinctio quibusdam fugit! Amet consequuntur aspernatur fugiat ipsam, assumenda iste tempore fugit beatae. Saepe, inventore quos! 
+                <i class="fa fa-quote-right mx-1 fa-1x text-white"></i>
+                </p>
+                <p class="text-sm font-italic date"> 3 March, 2021</p>
+            </div>
+            <div class="col-md-4 col-sm-4 col-lg-4 text-left" data-aos="fade-up-left">
+                <img src="./assets/images/clients/2.jpg" class="rounded-circle img-fluid w-7 shadow-lg" alt="">
+            </div>
+    </div>
+    <div class="row my-5">
+      <div class="col-md-4 col-sm-4 col-lg-4 text-right" data-aos="fade-up-right">
+        <img src="./assets/images/clients/3.jpg" class="rounded-circle img-fluid w-7 shadow-lg" alt="">
+      </div>
+      <div class="col-md-8 col-sm-8 col-lg-8 text-left" data-aos="fade-up-left">
+        <h4 class="py-2 text-bold">Eva Doe</h4>
+        <p class="font-italic text-white">
+           <i class="fa fa-quote-left mx-1 fa-1x text-white"></i>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos quae veritatis autem provident, tenetur distinctio quibusdam fugit! Amet consequuntur aspernatur fugiat ipsam, assumenda iste tempore fugit beatae. Saepe, inventore quos! 
+          <i class="fa fa-quote-right mx-1 fa-1x text-white"></i>
+          </p>
+          <p class="text-sm font-italic date"> 3 March, 
+            2021</p>
+      </div>
+    </div>
+    <div class="row my-5">
+          <div class="col-md-8 col-sm-8 col-lg-8 text-right" data-aos="fade-up-right">
+              <h4 class="py-2 text-bold">Ava Doe</h4>
+               <p class="font-italic text-white">
+                <i class="fa fa-quote-left mx-1 fa-1x text-white"></i>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos quae veritatis autem provident, tenetur distinctio quibusdam fugit! Amet consequuntur aspernatur fugiat ipsam, assumenda iste tempore fugit beatae. Saepe, inventore quos! 
+                <i class="fa fa-quote-right mx-1 fa-1x text-white"></i>
+                </p>
+                <p class="text-sm font-italic date"> 3 March, 2021</p>
+            </div>
+            <div class="col-md-4 col-sm-4 col-lg-4 text-left" data-aos="fade-up-left">
+                <img src="./assets/images/clients/4.jpg" class="rounded-circle img-fluid w-7 shadow-lg" alt="">
+            </div>
+    </div>
+  </div>
+</section>
+<!-- End Client Review -->
+
+<!-- Contact Section -->
+<section class="py-5 shadow-lg" id="contact">
+  <div class="container">
+    <h2 class="text-center section-title">Contact Me</h2>
+    <div class="row py-5">
+      <div class="col-md-7 col-lg-7">
+        Hello
+      </div>
+      <div class="col-md-5 col-md-5">
+        Hello
+      </div>
+    </div>
+    <div class="row justify-content-center pt-5">
+      <div class="col-md-8 col-sm-8"col-lg-8 >
+        <form class="form-group">
+          <div class="py-2">
+            <label for="name" class="text-left">Your Name : </label>
+            <input type="text" name="" placeholder="Your Name" class="form-field shadow-lg" id="name">
+          </div>
+          <div class="py-2">
+            <label for="name" class="text-left">Email : </label>
+            <input type="text" name="" placeholder="Your Email Address" required class="form-field shadow-lg" id="name">
+          </div>
+          <div class="py-2">
+            <label for="name" class="text-left">Subject : </label>
+            <input type="text" name="" placeholder="What's your objective...." required class="form-field shadow-lg" id="name">
+          </div>
+          <div class="py-2">
+            <label for="text" class="text-left" > Your Letter : </label>
+            <textarea  placeholder="What do you want to say....." class="form-field shadow-lg" id="text" cols="30" rows="10"></textarea>
+          </div>
+          <input type="submit" class="btn primary-bg" value="Send Now">
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Contact Section -->
+
+<!-- Footer Section  -->
+<footer class="bg-dark p-5 shadow-lg">
+  <div class="row justify-content-center">
+    <div class="col-md-4 col-sm-4 col-lg-4 col-sm-4 col-lg-4">
+      <img src="./assets/images/logo.png" class="w-50" alt="">
+      <br> 
+      <p class="text-light">Programmer Rezwan Hossain</p>
+    </div>
+    <div class="col-md-4 col-sm-4 col-lg-4 col-sm-4 col-lg-4 text-light">
+      <h2>Lorem ipus</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum voluptatem, harum dignissimos corporis necessitatibus illum!</p>
+    </div>
+    <div class="col-md-4 col-sm-4 col-lg-4 col-sm-4 col-lg-4">
+      <h2 class="text-light">Social Link</h2>
+      <ul class="nav">
+        <li class="px-2 text-light"><i class="fab fa-facebook fa-2x"></i></li>
+        <li class="px-2 text-light"><i class="fab fa-linkedin fa-2x"></i></li>
+        <li class="px-2 text-light"><i class="fab fa-twitter fa-2x"></i></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<section class="footer">
+  <div class="text-center py-3 text-light">All right reserved By Rezwan Hossain Sajib</div>
+</section>
+<!-- End Footer Section  -->
   </div>
  <script src="../dist/bundle.js"></script>
 </body>

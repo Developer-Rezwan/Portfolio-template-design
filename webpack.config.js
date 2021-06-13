@@ -40,6 +40,41 @@ module.exports = {
           },
         ],
       },
+          {
+      test: /\.m?js$/,
+      exclude: /(node_modules|bower_components)/,
+      use: {
+        loader: 'babel-loader',
+        options: {
+          presets: ['@babel/preset-env'],
+          plugins: ['@babel/plugin-proposal-object-rest-spread']
+        }
+      }
+      },
+      {
+        test: require.resolve("jquery"),
+        loader: "expose-loader",
+        options: {
+          exposes: ["$", "jQuery"],
+        },
+      },
+      {
+        test: require.resolve("underscore"),
+        loader: "expose-loader",
+        options: {
+          exposes: [
+            "_.map|map",
+            {
+              globalName: "_.reduce",
+              moduleLocalName: "reduce",
+            },
+            {
+              globalName: ["_", "filter"],
+              moduleLocalName: "filter",
+            },
+          ],
+        },
+      },
     ],
   },
 }

@@ -1,5 +1,155 @@
-body{
- font-size: 15rem;
- color: red;
- background-color: green;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+body {
+ font-family: 'Raleway', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+/**==================== Primary color  ================**/
+.primary-bg {
+ background-color: #03c2d3!important;
+}
+.primary {
+ color : #03c2d3!important;
+}
+.section-title {
+ font-weight: 600!important;
+ font-size: 3rem!important;
+ letter-spacing: 1px;
+}
+/*================== Navigation bar ===================*/
+.navbar-brand img {
+ width: 100%;
+}
+.nav-link {
+ color: black!important;
+ text-transform: uppercase;
+ font-weight: 500;
+}
+.active {
+ background-color: #03c2d3;
+ border-bottom-left-radius: 1rem;
+ border-bottom-right-radius: 1rem;
+ transition: 0.3 ease background-color ;
+}
+.navbar-brand img{
+ margin-top: -11%;
+ margin-bottom: -11%;
+}
+/*====================== Top section  =================*/
+.mt-auto {
+ margin-top: 25%!important ;
+}
+.nav-item:hover {
+ background-color: #03c2d3;
+ border-bottom-left-radius: 1rem;
+ border-bottom-right-radius: 1rem;
+ transition: 0.3 ease background-color ;
+}
+/** =======Top Image ============*/
+
+.image-rounded-lg {
+  object-fit: cover;
+  border-bottom-left-radius: 1.5rem!important;
+  border-bottom-right-radius: 1.5rem!important;
+}
+/*======= Top section Content  ======*/
+.hero-content h1 {
+ font-size: 3rem;
+ font-weight: 900;
+ font-family: sans-serif italic;
+}
+.hero-content h3 {
+ font-weight: 700;
+}
+.hero-content a , .hero-content i {
+ font-weight: 700;
+}
+.hero-content a:hover {
+ color: #03c2d3!important;
+}
+.btn-success {
+ background: #03c2d3;
+}
+.btn-success:hover {
+ background-color: white;
+ color: black!important;
+}
+/**======== Social link  ===========*/
+.social-link {
+ border: 1px solid black;
+}
+.social-link a {
+ color: rgb(26, 25, 25);
+}
+.social-link:hover,
+.social-link:hover a {
+background-color: #000!important;
+color: #03c2d3!important;
+}
+
+/* ================ About Section ================== */
+.about{
+ margin-top: -70px;
+}
+.about h3 {
+  font-weight: 600;
+ font-size: 2.5rem!important;
+}
+.about .image-rounded-lg {
+ border-radius: 1.5rem!important;
+}
+
+/*================= Portfolio Section ===============*/
+.portfolio {
+  margin-top: -110px;
+  background-color: white;
+}
+.article-title {
+  font-weight: 600;
+  font-size: 2.3rem;
+}
+.portfolio img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+}
+.portfolio .social-link {
+   border: 1px solid white!important; 
+}
+.portfolio .social-link a {
+  color: #03c2d3;
+}
+
+/*============= Clients-reviews ================== */
+.w-7 {
+  width: 7rem!important;
+  height: 6.5rem!important;
+}
+.fa-1x {
+  font-size: 1.3rem!important;
+}
+.text-bold {
+  font-weight: 600!important;
+}
+
+/* =============== Contact Section================ */
+label {
+  font-size: 1.2rem!important;
+}
+.form-field {
+  padding: .5rem;
+  width: 100%;
+  border: 4px solid aqua;
+  border-radius: 30px;
+  color: #03c2d3;
+}
+.form-field:focus {
+  outline: aqua!important;
+  box-shadow: 0 0 0 0.2rem white;
+}
+
+/* ========= Footer Section ================== */
+.footer {
+  background-color: rgb(30, 32, 33);
 }
